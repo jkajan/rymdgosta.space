@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+	
 html {
   height: 100%;
   box-sizing: border-box;
@@ -14,6 +17,8 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
+
+  font-family: 'Roboto Slab', serif;
 }
 
 .main {
