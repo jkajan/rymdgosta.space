@@ -3,5 +3,10 @@ AddType application/x-font-otf           otf
 AddType application/font-woff            woff
 AddType application/font-woff2           woff2
 AddType application/vnd.ms-fontobject    eot
+
 ErrorDocument 404 /error_pages/404.html
 ErrorDocument 403 /error_pages/403.html
+
+<FilesMatch ".(eot|ttf|otf|woff|woff2)">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
