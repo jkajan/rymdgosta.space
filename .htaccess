@@ -4,4 +4,4 @@ AddType application/font-woff            woff
 AddType application/font-woff2           woff2
 AddType application/vnd.ms-fontobject    eot
 ErrorDocument 404 /error_pages/404.html
-ErrorDocument 403 /403.html
+ErrorDocument 403 /error_pages/403.html
