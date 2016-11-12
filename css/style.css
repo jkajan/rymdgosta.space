@@ -48,6 +48,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: auto;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items:center;
 }
 
 .bg1 {
@@ -57,11 +60,16 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items:center;
 }
 
 .main {
 	margin: 0 auto;
 	padding-top: 32px;
+	padding-bottom: 32px;
 	max-width: 640px;
 	width: 92%;
 	color: #191919;
