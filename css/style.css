@@ -38,6 +38,8 @@ body {
 	padding-bottom: 4rem;
 	min-height: 100%;
   	font-family: 'Roboto Slab', serif;
+	background-color: #fffefc;
+
 }
 
 .header {
@@ -72,8 +74,7 @@ body {
 	padding-bottom: 32px;
 	max-width: 640px;
 	width: 92%;
-	color: #191919;
-	background-color: white;
+	color: #212121;
 	background-size: contain;
 }
 
