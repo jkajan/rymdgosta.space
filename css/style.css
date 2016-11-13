@@ -13,7 +13,7 @@ html {
 }
 
 a:link {
-	color: black;
+	color: #3d3d3d;
 	text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ a:visited {
 }
 
 a:hover {
-	color: midnightblue;
+	color: black;
 	text-decoration: none;
 }
 
