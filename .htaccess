@@ -6,6 +6,7 @@ AddType application/vnd.ms-fontobject    eot
 
 ErrorDocument 404 /error_pages/404.html
 ErrorDocument 403 /error_pages/403.html
+ErrorDocument 400 /error_pages/400.html
 
 <FilesMatch ".(eot|ttf|otf|woff|woff2)">
   Header set Access-Control-Allow-Origin "*"
