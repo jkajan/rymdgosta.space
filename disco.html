@@ -7,24 +7,45 @@
     <title>Space Disco</title>
     <link rel="icon" href="images/icon.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/foundation.css">
+  	<script>
+	function disco() {
+		var music = document.getElementById("musicPlayer");
+		var playing = music.paused;
+		var image = document.getElementById("image");
+		music.volume = 0.3;
+		if(playing) {
+			music.play()
+			image.src = "/images/happyplanets.gif"
+			}
+		else {
+			music.pause();
+			image.src = "/images/sadplanets.gif"
+		}
+		
+	}
+	</script>
   </head>
   <body>
-	<div class="bg2">
-		<!-- <div class="main">
-			<audio controls loop="true" id="musicplayer">
-				<source src="/media/disco.mp3" type="audio/mp3">
-			</audio>
-		</div> -->
-		<img src="/images/sadplanets.gif" style="width:250px;height200px;">
+	<div class="main" style="height: 20%">
 	</div>
-	<div class="main">
-		<p> Coming soon. </p>
+
+	<div class="bg1">
+		<input type="image" id="image" src="/images/sadplanets.gif" style="width:250px;height200px;" onclick="disco()" />
+
+		<audio loop="true" id="musicPlayer">
+			<source src="/media/disco.mp3" type="audio/mp3">
+		</audio>
 	</div>
+
+	<div class="main" style="height: 20%">
+	</div>
+
 	<div class="footer">
 		<span> <a href="/">Home</a> </span>
 		&emsp;&emsp;
 		<span> <a href="about.html">About</a> </span> 
-		<span style="float:right"> Rymdg&ouml;sta 2016 </span>
 	</div>
+
   </body>
 </html>
